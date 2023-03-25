@@ -1,11 +1,11 @@
 package com.itheima.service.impl;
 
-import com.alibaba.fescar.spring.annotation.GlobalTransactional;
 import com.itheima.dao.LogInfoMapper;
 import com.itheima.feign.OrderInfoFeign;
 import com.itheima.feign.UserInfoFeign;
 import com.itheima.pojo.LogInfo;
 import com.itheima.service.BusinessService;
+import io.seata.spring.annotation.GlobalTransactional;
 import org.springframework.stereotype.Service;
 
 import javax.annotation.Resource;

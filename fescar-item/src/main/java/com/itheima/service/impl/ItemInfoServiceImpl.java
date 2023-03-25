@@ -30,6 +30,6 @@ public class ItemInfoServiceImpl implements ItemInfoService {
         itemInfo.setCount(itemInfo.getCount()-count);
         int dcount = itemInfoMapper.updateByPrimaryKeySelective(itemInfo);
         System.out.println("库存递减受影响行数："+dcount);
-        int q=10/0;
+//        int q=10/0;
     }
 }
